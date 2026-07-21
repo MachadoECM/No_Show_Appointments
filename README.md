@@ -47,7 +47,7 @@ Alguns padrões que já aparecem nessa etapa exploratória: pacientes com
 hipertensão ou diabetes faltam proporcionalmente menos, enquanto quem
 recebeu SMS aparenta faltar *mais* (efeito de confusão explicado na seção
 de feature engineering: SMS só é enviado quando há bastante antecedência,
-e é a antecedência — não o SMS — que aumenta a chance de falta). O bairro
+e é a antecedência, não o SMS, que aumenta a chance de falta). O bairro
 também mostra variação relevante na taxa de não comparecimento.
 
 ### 4. Feature Engineering
@@ -186,12 +186,6 @@ E rode as células do notebook em ordem, com Jupyter ou VS Code.
 ├── graficos/                            # imagens usadas neste README
 └── README.md
 ```
-
-## Licença
-
-O código e o notebook deste repositório estão sob licença MIT (ver
-[LICENSE](LICENSE)). O dataset utilizado segue os termos de uso do próprio
-Kaggle — consulte a página original antes de redistribuí-lo.
 
 ## Autor
 
